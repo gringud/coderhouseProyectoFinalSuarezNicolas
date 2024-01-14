@@ -1,0 +1,71 @@
+.NavBar{
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+    text-decoration: none;
+    background-color: rgb(110, 117, 115);
+}
+
+.linkLogo{
+    display: flex;
+    text-decoration: none;
+}
+
+.linkLogo h3{
+    align-self: center;
+    color: white;
+    /* text-decoration: none !important; */
+}
+
+.logoApp{
+    width: 85px;
+    margin: 15px;
+}
+
+.navCentro{
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    align-items: center;
+    justify-content: space-around;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.navCentro Link{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.LinkTitulo{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.carritoImg{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.carritoImg img{
+    width: 55px;
+}
+
+.carritoImg p {
+    
+    margin-top: 45px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.carritoNumero{
+    background-color: red;
+    border-radius: 30px;
+    padding: 2px 7px;
+    font-size: 14px;
+    opacity: 1;
+}

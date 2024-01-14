@@ -1,0 +1,53 @@
+.tituloPrincipal{
+    text-align: center;
+    font-size: 45px;
+    margin: 25px 0px;
+}
+
+.ListaProductos{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardItem{
+    display: grid;
+    background-color: rgb(155, 155, 155);
+    width: 230px;
+    height: 300px;
+    margin: 15px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.nombreProducto{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.imgProducto{
+    width: 120px;
+    justify-self: center;
+}
+
+.verDetalle{
+    display: grid;
+    justify-self: center;
+    background-color: rgb(12, 188, 130);
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.verDetalleLink{
+    font-size: 20px;
+    align-self: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}

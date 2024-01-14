@@ -1,0 +1,37 @@
+.carritoCompras{
+    display: grid;    
+}
+
+.carritoComprasDetalle{
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 20px;
+    margin: 20px;
+    height: 100px;
+    align-items: center;
+}
+
+.carritoIzq{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.carritoCentro{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carritoDer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.botonEliminarItemCarrito{
+    background-color: blueviolet;
+    padding: 9px 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
