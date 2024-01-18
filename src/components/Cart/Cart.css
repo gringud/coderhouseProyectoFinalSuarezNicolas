@@ -1,5 +1,6 @@
 .carritoCompras{
     display: grid;    
+    text-align: center;
 }
 
 .carritoComprasDetalle{
@@ -34,4 +35,38 @@
     padding: 9px 10px;
     border-radius: 12px;
     cursor: pointer;
+}
+
+.tituloTotalCarrito{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.botonVaciarCarrito{
+    background-color: blueviolet;
+    width: 160px;
+    height: 50px;
+    justify-self: center;
+    border: 0px;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.checkout{
+    background-color: blueviolet;
+    width: 90%;
+    height: 90px;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    justify-self: center;
+    text-decoration: none;
+    justify-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    display: grid;
+    align-items: center;
 }

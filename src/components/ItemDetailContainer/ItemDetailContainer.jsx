@@ -13,6 +13,7 @@ const ItemDetailContainer = ({greeting}) => {
     //console.log(itemId);
     useEffect(() => {
         const docRef = doc(db, "ecommerce", itemId)
+        //console.log(docRef);
 
         getDoc(docRef)
             .then(response => {

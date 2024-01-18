@@ -1,0 +1,48 @@
+
+
+.ContainerCheckOut{
+    text-align: center;
+    display: grid;
+}
+
+.Form{
+    display: grid;
+    width: 350px;
+    justify-self: center;
+}
+
+.Label{
+    display: grid;
+    font-size: 25px;
+    color: gray;
+    text-align: start;
+}
+
+.Input{
+    border: 0px;
+    border-bottom: 3px solid blueviolet;
+    border-radius: 30px;
+    border-top: 3px solid blueviolet;
+    height: 30px;
+    text-align: center;
+    
+    
+}
+
+.Input:focus{
+    outline: none;
+}
+
+.ButtonCheckout{
+    justify-self: center;
+    margin-top: 20px;
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: none;
+    
+}

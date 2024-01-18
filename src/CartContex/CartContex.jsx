@@ -33,8 +33,17 @@ export const CartProvider = ({ children }) => {
         return cart.some(prod => prod.id === itemId)
     }
 
+    const total = () =>{
+        const totalCarrito = 0;
+        cart.map((itemCarrito) => {
+            console.log("Entre al carrito y veo q hay", itemCarrito.price);
+            totalCarrito = totalCarrito + itemCarrito.price;
+        })
+        return totalCarrito;
+    }
+
     return(
-        <CartContex.Provider value = {{ cart, addItem, removeItem, clearCart}}>
+        <CartContex.Provider value = {{ cart, addItem, removeItem, clearCart, total }}>
             {children}
         </CartContex.Provider>
     )

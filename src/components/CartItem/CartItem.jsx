@@ -2,8 +2,9 @@ import { useContext } from "react";
 import { CartContex } from "../../CartContex/CartContex";
 
 const CartItem = (itemCarrito) => {
-    const removeItem = useContext(CartContex)
-    /* console.log(itemCarrito); */
+    const {removeItem} = useContext(CartContex)
+
+
     return (
         <div className="carritoComprasDetalle" >
             <div className="carritoIzq">{itemCarrito.name}</div>
@@ -13,6 +14,7 @@ const CartItem = (itemCarrito) => {
             </div>
             <div className="carritoDer">
                 <div className="derechaSubtotal">Subtotal: ${itemCarrito.quantity*itemCarrito.price}</div>
+                {/* <button className="botonEliminarItemCarrito" onClick={() => removeItem(itemCarrito.id)}>X</button> */}
                 <button className="botonEliminarItemCarrito" onClick={() => removeItem(itemCarrito.id)}>X</button>
             </div>
         </div>
